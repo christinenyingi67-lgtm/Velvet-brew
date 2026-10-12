@@ -1,0 +1,20 @@
+.footer {
+  background-color: saddlebrown;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.footer h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  line-height: 1.7;
+}
+
+.copyright {
+  margin-top: 25px;
+  font-size: 13px;
+}

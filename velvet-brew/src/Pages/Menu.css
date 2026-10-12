@@ -1,0 +1,74 @@
+.menu-page {
+  background-color: antiquewhite;
+  color: saddlebrown;
+  min-height: 80vh;
+  padding: 50px 8%;
+}
+
+.menu-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-label {
+  color: peru;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+.menu-heading h1 {
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.menu-heading > p:last-child {
+  color: sienna;
+  line-height: 1.7;
+}
+
+.menu-list {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid tan;
+}
+
+.menu-item h3 {
+  margin: 0 0 8px;
+}
+
+.menu-item p {
+  color: sienna;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.menu-item span {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .menu-page {
+    padding: 35px 20px;
+  }
+
+  .menu-heading h1 {
+    font-size: 32px;
+  }
+
+  .menu-item {
+    gap: 12px;
+  }
+
+  .menu-item p {
+    font-size: 14px;
+  }
+}

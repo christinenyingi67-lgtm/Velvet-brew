@@ -1,0 +1,55 @@
+.about-page {
+  background-color: antiquewhite;
+  color: saddlebrown;
+  min-height: 80vh;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about-label {
+  color: peru;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+.about-hero h1 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+
+.about-hero p:last-child {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: sienna;
+}
+
+.about-story {
+  background-color: beige;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-story h2 {
+  font-size: 30px;
+}
+
+.about-story p {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: sienna;
+}
+
+@media (max-width: 600px) {
+  .about-hero h1 {
+    font-size: 34px;
+  }
+
+  .about-hero {
+    padding: 55px 20px;
+  }
+}
